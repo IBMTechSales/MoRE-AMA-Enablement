@@ -159,9 +159,9 @@ it and get familiar with the tWAS environment.
  incorrect.](./images/media/image7.png)
 
     d.  In the Firefox window, navigate to the WebSphere Integrated
-     Solutions Console (WAS Admin Console) with URL illustrated in (A):
+     Solutions Console (WAS Admin Console) with URL:
      
-         https://localhost:9043/ibm/console   
+         https://localhost:9043/ibm/console   (A)
 
     ![A close-up of a browser window AI-generated content may be
  incorrect.](./images/media/image8.png)
@@ -197,7 +197,7 @@ it and get familiar with the tWAS environment.
 
     h.  Access the **WhereAmI** application from the IHS URL:
      
-        http://localhost:8080/tWAS/WhereAmI
+        http://localhost:8080/tWAS/WhereAmI**
       
     The WhereAmI application page is displayed.
 
@@ -647,8 +647,6 @@ it and get familiar with the tWAS environment.
     g.  Next click **Upload migration plan (A)** to upload the AMA
      generated migration plan into AMA Dev Tools.
 
-    **Note:** You may need to scroll down to locate the `Upload migration plan` button
-
     ![A screenshot of a computer AI-generated content may be
  incorrect.](./images/media/image59.png)
 
@@ -667,8 +665,6 @@ it and get familiar with the tWAS environment.
     j.  Review the identified modernization issues of the application,
      which are going to be automated fixes by AMA Dev Tools, and click
      **Run automated fixes (A)**.
-
-     **Note:** You may need to scroll down to see the `Run automated fixes button`
 
     ![A screenshot of a computer AI-generated content may be
  incorrect.](./images/media/image62.png)

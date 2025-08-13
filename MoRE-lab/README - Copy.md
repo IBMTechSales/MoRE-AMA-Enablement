@@ -166,9 +166,9 @@ At the end of this lab, you should be able to learn how to:
  incorrect.](./images/media/image8.png)
 
     c.  In the Firefox window, navigate to the WebSphere Integrated
-     Solutions Console (WAS Admin Console) (A) with URL:
+     Solutions Console (WAS Admin Console) with URL:
      
-        https://localhost:9043/ibm/console
+        https://localhost:9043/ibm/console   (A)
 
     ![A close-up of a browser window AI-generated content may be
  incorrect.](./images/media/image9.png)
@@ -722,9 +722,9 @@ incorrect.](./images/media/image30.png)
 18. Access the IBM HTTP Server on port 8080
 
     a.  Open a new browser tab in **Firefox** browser in the lab environment
-    and navigate to the HTTP server URL: (A) 
+    and navigate to the HTTP server URL: 
     
-        http://localhost:8080  
+        http://localhost:8080   (A)
 
     ![A screenshot of a computer AI-generated content may be
   incorrect.](./images/media/image77.png)
@@ -734,9 +734,9 @@ incorrect.](./images/media/image30.png)
 
     a.  Open a new browser tab in the lab environment and navigate
     to the **WhereAmI** application using the context root
-    **“/Liberty**”: (A)
+    **“/Liberty**”: 
     
-        http://localhost:8080/Liberty/WhereAmI    
+        http://localhost:8080/Liberty/WhereAmI    (A)
 
     ![A screenshot of a computer AI-generated content may be
  incorrect.](./images/media/image78.png)
