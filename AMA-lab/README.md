@@ -123,18 +123,23 @@ In this lab, you are going to perform the following tasks:
 
 # Steps for the lab tasks
 
-1.  Review the **WhereAmI** application in the tWAS environment.
+1.  Start the WebSphere servers and review the **WhereAmI** application in the tWAS environment.
 
     The **WhereAmI** (version 2.0.0) application has been deployed to the
 tWAS environment, you are going to use the following steps to review
 it and get familiar with the tWAS environment.
 
-    a. Click the **terminal** **icon (A)** to open a **terminal** window.
+    a. Click `Activities` in the top-left corner of the desktop to open the application menu
+    
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./images/media/image6.png)
+    
+    b. Click the **`terminal icon` (A)** to open a **terminal** window.
 
     ![A screenshot of a computer AI-generated content may be
  incorrect.](./images/media/image3.png)
 
-    b. Start the WebSphere Deployment Manager, WebSphere ND Node Agents
+    c. Start the WebSphere Deployment Manager, WebSphere ND Node Agents
      and IBM HTTP Server (IHS) by issuing the commands below:
     
         cd /home/techzone/demos/ManagedLiberty-MoRE/tx-more-lab/scripts
@@ -148,7 +153,7 @@ it and get familiar with the tWAS environment.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./images/media/image5.png)
 
-    c.  Access the WebSphere Integrated Solution Console (WAS Admin
+    d.  Access the WebSphere Integrated Solution Console (WAS Admin
      Console). Open a web browser window by clicking **Activities (A)**
      and clicking the **Firefox icon (B)**.
 
@@ -158,7 +163,7 @@ it and get familiar with the tWAS environment.
     ![A screenshot of a computer AI-generated content may be
  incorrect.](./images/media/image7.png)
 
-    d.  In the Firefox window, navigate to the WebSphere Integrated
+    e.  In the Firefox window, navigate to the WebSphere Integrated
      Solutions Console (WAS Admin Console) with URL illustrated in (A):
      
          https://localhost:9043/ibm/console   
@@ -170,7 +175,7 @@ it and get familiar with the tWAS environment.
  Ahead..”, click **Advanced…** then click **Accept the Risk and
  Continue**.
 
-    e. Accept the default user ID and Password and click **Log in (A)**.
+    f. Accept the default user ID and Password and click **Log in (A)**.
 
     ![A screenshot of a login page AI-generated content may be
  incorrect.](./images/media/image9.png)
@@ -178,13 +183,13 @@ it and get familiar with the tWAS environment.
     > **Note:** the log in credentials are User ID: **techzone** Password:
 **IBMDem0s\!**
 
-    f. If you see the following screen, select the **Long out option
+    g. If you see the following screen, select the **Long out option
     (A)** and click **OK (B)**.
 
     ![A screenshot of a computer AI-generated content may be
  incorrect.](./images/media/image10.png)
 
-    g.   Start the tWAS cluster named **tWASCluster1** by selecting
+    h.   Start the tWAS cluster named **tWASCluster1** by selecting
      **Servers (A)** -\> **Clusters (B)** -\> **WebSphere application
      server clusters (C)**, checking the **box next the tWASCluster1
      (D)** and clicking **Start (E)**.
@@ -195,7 +200,7 @@ it and get familiar with the tWAS environment.
     After the **tWASCluster1** gets started, the **WhereAmI** application
  can be accessed through the default IHS port 8080.
 
-    h.  Access the **WhereAmI** application from the IHS URL:
+    i.  Access the **WhereAmI** application from the IHS URL:
      
         http://localhost:8080/tWAS/WhereAmI
       
@@ -208,7 +213,7 @@ it and get familiar with the tWAS environment.
  WebSphere server the application is running.
 
 
-    i. Click the **page refresh button (A)** a few times, you can see
+    j. Click the **page refresh button (A)** a few times, you can see
      that the displayed information changes between **tWASMember1** and
      **tWASMember2**, which are the two tWAS members of the
      **tWASCluster1** cluster.
@@ -328,25 +333,26 @@ it and get familiar with the tWAS environment.
     After the AMA Workspace is created, you have options to either
  `download` the Discovery Tool utility or `upload` existing data file.
  
-    In this lab, you learn how to download and install the Discovery Tool
- utility. 
+      `In this lab, you learn how to download and install the Discovery Tool utility.` 
  
-    First, you go to the `Discovery Tool` page and download
- different version of the utility based on your application server
- operating system. The Discovery Tool page also shows the information
+    - First, you go to the `Discovery Tool` page and download
+ the discovery tool utility that fits to your application server
+ operating system. 
+ 
+       The Discovery Tool page also shows the information
  on how to use the utility in command line to collect application data
  from WebSphere, WebLogic and Tomcat servers.
  
-    Next, you save the downloaded utility in your local workstation. This
+    - Next, you save the downloaded utility in your local workstation. This
  result is a file with a name like
- `**DiscoveryTool-Linux\_\<WORKSPACE\_NAME\>.tgz**` being downloaded and
+ `DiscoveryTool-Linux\_\<WORKSPACE\_NAME\>.tgz` being downloaded and
  stored in your workstation **Downloads** directory.
  
-    To use the Discovery Tool, you need to extract the Discovery Tool tgz
+    - To use the Discovery Tool, you need to extract the Discovery Tool tgz
  file using the information in the Discovery Tool documentation page.
  
-    The extracting command unpacks the tgz file and save all Discovery
- Tool files in a `**transformationadvisor-\<VERSION\>**` directory.
+      The extracting command unpacks the tgz file and save all Discovery
+ Tool files in a `transformationadvisor-\<VERSION\>` directory.
 
     a. Click **Open discovery tool (A)**.
 
