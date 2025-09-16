@@ -197,7 +197,7 @@ At the end of this lab, you should be able to learn how to:
     
         cd /home/techzone/IBM/WebSphere/AppServer/profiles/Dmgr01/bin
 
-        ./stopManager.sh -username techzone -password IBMDem0s\!
+        ./stopManager.sh -username techzone -password IBMDem0s!
  
     ![A screenshot of a computer error AI-generated content may be
  incorrect.](./images/media/image12.png)
