@@ -610,7 +610,7 @@ it and get familiar with the tWAS environment.
         code .
 
     b.  In VS Code page, if you see the following Authentication required
-     window, enter the password as: **`IBMDemo0s!`** and click **Unlock
+     window, enter the password as: **`IBMDem0s!`** and click **Unlock
      (A)**.
 
     ![A screenshot of a computer error AI-generated content may be
