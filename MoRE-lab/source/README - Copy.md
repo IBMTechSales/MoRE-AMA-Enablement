@@ -271,25 +271,17 @@ At the end of this lab, you should be able to learn how to:
     > **Note:** This configuration is needed to generate the wsadmin command assistance for UI driven tasks.
 
     a. Start the WebSphere Application Network Deployment (WAS ND)
-     environment and enable command assistance:
+     environment with commands:
     
-        cd /home/techzone/demos/ManagedLiberty-MoRE/tx-more-lab/scripts
-        
-        ./start-was-servers.sh
+        cd /home/techzone/IBM/WebSphere/AppServer/profiles/Dmgr01/bin
+    
+        ./startManager.sh
 
-    **For your reference:** The script above perfoms the following commands to start the WebSphere environment. 
-
-    > cd /home/techzone/IBM/WebSphere/AppServer/bin
-    >
-    > ./startManager.sh
-    >
-    > ./startNode.sh -profileName AppSrv01
-    >
-    > ./startNode.sh -profileName AppSrv02
-    >
-    > cd /home/techzone/IBM/HTTPServer/bin
-    >
-    > ./apachectl start
+        cd /home/techzone/IBM/WebSphere/AppServer/bin
+ 
+        ./startNode.sh -profileName AppSrv01
+ 
+        ./startNode.sh -profileName AppSrv02
 
     b. Go to the WAS Admin Console page in web browser with URL:
     
@@ -619,9 +611,9 @@ incorrect.](./images/media/image30.png)
 
     d. Open a new browser tab browser in the lab environment and navigate
      to the **WhereAmI** application using the context root
-     **“/Liberty**”: Illustratd below as (A)
+     **“/Liberty**”: 
      
-        http://localhost:9084/Liberty/WhereAmI
+        http://localhost:9084/Liberty/WhereAmI   (A)
 
     ![A screenshot of a computer AI-generated content may be
  incorrect.](./images/media/image67.png)
