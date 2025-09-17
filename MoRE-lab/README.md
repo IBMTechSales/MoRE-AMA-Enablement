@@ -279,6 +279,8 @@ At the end of this lab, you should be able to learn how to:
 
     **For your reference:** The script above perfoms the following commands to start the WebSphere environment. 
 
+    **DO NOT RUN THE FOLLOWING COMMANDS**
+
     > cd /home/techzone/IBM/WebSphere/AppServer/bin
     >
     > ./startManager.sh
